@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <!-- Título -->
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo_login"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp"/>
+
+    <!-- Cédula -->
+
+    <EditText
+        android:id="@+id/etCedula"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_cedula"
+        android:inputType="number"
+        android:autofillHints="username"
+        android:padding="12dp"
+        android:layout_marginBottom="15dp"/>
+
+    <!-- Contraseña -->
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_password"
+        android:inputType="textPassword"
+        android:autofillHints="password"
+        android:padding="12dp"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Botón -->
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_ingresar"
+        android:textStyle="bold"/>
+
+</LinearLayout>

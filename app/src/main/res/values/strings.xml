@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CACMQ</string>
+
+    <string name="titulo_login">Iniciar Sesión</string>
+    <string name="hint_cedula">Cédula</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="btn_ingresar">INGRESAR</string>
+</resources>

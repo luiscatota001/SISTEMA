@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/txtEstado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ASISTENCIA"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="30dp"/>
+
+        <!-- ENTRADA -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hora entrada:"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/txtHoraEntrada"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="--:--:--"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ubicación entrada:"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/txtUbicacionEntrada"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:layout_marginBottom="25dp"/>
+
+        <!-- SALIDA -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hora salida:"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/txtHoraSalida"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="--:--:--"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ubicación salida:"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/txtUbicacionSalida"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:layout_marginBottom="30dp"/>
+
+        <!-- BOTONES -->
+
+        <Button
+            android:id="@+id/btnEntrada"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MARCAR ENTRADA"
+            android:layout_marginBottom="15dp"/>
+
+        <Button
+            android:id="@+id/btnSalida"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MARCAR SALIDA"
+            android:layout_marginBottom="15dp"/>
+
+        <Button
+            android:id="@+id/btnVolver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VOLVER AL MENÚ"/>
+
+    </LinearLayout>
+
+</ScrollView>
